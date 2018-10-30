@@ -1,6 +1,6 @@
 [
   [
-    "name" : "MyTask", 
+    "name" : "GovernmentPermit", 
     "parameters" : [ 
         "MyFirstParam" : new StringDataType(), 
         "MySecondParam" : new StringDataType(), 
