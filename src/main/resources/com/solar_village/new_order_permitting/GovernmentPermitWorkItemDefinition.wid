@@ -2,7 +2,7 @@
   [
     "name" : "GovernmentPermit", 
     "parameters" : [ 
-        "permitRequest" : new ObjectDataType("com.solarvillage.permit.model.NewOrder")
+        "permitRequest" : new ObjectDataType()
     ], 
     "results" : [ 
         "Result" : new ObjectDataType("java.util.Map") 
