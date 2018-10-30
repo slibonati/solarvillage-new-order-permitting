@@ -45,6 +45,11 @@
       <version>7.11.0.Final-redhat-00001</version>
       <scope>provided</scope>
     </dependency>
+    <dependency>
+      <groupId>com.solarvillage</groupId>
+      <artifactId>permit-datamodel</artifactId>
+      <version>1.0</version>
+    </dependency>
   </dependencies>
   <build>
     <plugins>
