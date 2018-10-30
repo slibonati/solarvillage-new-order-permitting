@@ -79,6 +79,23 @@
      "displayName" : "Decision Task",
      "icon" : "defaultdecisionicon.png",
      "category" : "Decision tasks"
-   ]
+   ],
+   
+   [
+    "name" : "GovernmentPermit",
+    "parameters" : [
+        "newPermit" : new ObjectDataType(),
+    ],
+    "results" : [
+        "Result" : new ObjectDataType(),
+    ],
+    "displayName" : "Government Permit",
+    "icon" : ""
+  ],
+
+
+
+
+
 
 ]
