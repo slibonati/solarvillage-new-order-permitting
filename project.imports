@@ -26,7 +26,7 @@
         <type>java.util.ArrayList</type>
       </import>
       <import>
-        <type>com.solarvillage.permit.model.NewOrder</type>
+        <type>Map.Entry</type>
       </import>
     </imports>
   </imports>
