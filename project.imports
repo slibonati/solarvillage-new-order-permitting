@@ -25,9 +25,6 @@
       <import>
         <type>java.util.ArrayList</type>
       </import>
-      <import>
-        <type>java.util.Map.Entry</type>
-      </import>
     </imports>
   </imports>
   <version>1.0</version>
