@@ -88,7 +88,7 @@
         "inUrl" : new StringDataType(),
     ],
     "results" : [
-        "Result" : new ObjectDataType(),
+        "outPermitResponse" : new ObjectDataType(),
     ],
     "displayName" : "Government Permit",
     "icon" : ""
