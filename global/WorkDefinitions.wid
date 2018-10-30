@@ -84,8 +84,8 @@
    [
     "name" : "GovernmentPermit",
     "parameters" : [
-        "newPermit" : new ObjectDataType(),
-        "url" : new StringDataType(),
+        "inPermitRequest" : new ObjectDataType(),
+        "inUrl" : new StringDataType(),
     ],
     "results" : [
         "Result" : new ObjectDataType(),
