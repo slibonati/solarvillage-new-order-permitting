@@ -4,9 +4,9 @@
     "parameters" : [ 
         "permitRequest" : new ObjectDataType()
     ], 
-    "results" : [ 
-        "Result" : new ObjectDataType("java.util.Map") 
-    ], 
+    "results" : [
+        "Result" : new ObjectDataType(),
+    ],
     "displayName" : "My Task", 
     "icon" : "" 
   ]
