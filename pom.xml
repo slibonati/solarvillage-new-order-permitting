@@ -50,6 +50,11 @@
       <artifactId>permit-datamodel</artifactId>
       <version>1.0</version>
     </dependency>
+    <dependency>
+      <groupId>com.solarvillage</groupId>
+      <artifactId>permit-rest-work-item-handler</artifactId>
+      <version>1.0</version>
+    </dependency>
   </dependencies>
   <build>
     <plugins>
