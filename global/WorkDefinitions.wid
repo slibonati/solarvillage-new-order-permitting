@@ -89,7 +89,7 @@
         "inPermitType" : new StringDataType(),
     ],
     "results" : [
-        "order" : new ObjectDataType(),
+        "Result" : new ObjectDataType(),
     ],
     "displayName" : "Government Permit",
     "icon" : ""
