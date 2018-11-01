@@ -16,6 +16,12 @@
             <parameters/>
             <name>Email</name>
         </work-item-handler>
+        <work-item-handler>
+            <resolver>mvel</resolver>
+            <identifier>new com.solarvillage.permit.workitemhandler.RestWorkItemHandler()</identifier>
+            <parameters/>
+            <name>Government Permit</name>
+        </work-item-handler>
     </work-item-handlers>
     <environment-entries/>
     <configurations/>
