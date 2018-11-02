@@ -107,7 +107,7 @@
     "displayName" : "Get Permit Request Status",
     "icon" : ""
   ],
-[
+  [
     "name" : "RescindPermit",
     "parameters" : [
         "inPermitRequest" : new ObjectDataType(),
@@ -120,8 +120,6 @@
     "displayName" : "Rescind Permit",
     "icon" : ""
   ]
-
-
 
 
 ]
