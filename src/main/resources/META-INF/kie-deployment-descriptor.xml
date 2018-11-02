@@ -12,7 +12,7 @@
     <work-item-handlers>
         <work-item-handler>
             <resolver>mvel</resolver>
-            <identifier>new com.solarvillage.permit.workitemhandler.GetPermitRequestWorkItemHandler()</identifier>
+            <identifier>new com.solarvillage.permit.workitemhandler.GetPermitRequestStatusWorkItemHandler()</identifier>
             <parameters/>
             <name>GetPermitRequestStatus</name>
         </work-item-handler>
