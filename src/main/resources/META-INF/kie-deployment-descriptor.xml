@@ -12,15 +12,27 @@
     <work-item-handlers>
         <work-item-handler>
             <resolver>mvel</resolver>
+            <identifier>new com.solarvillage.permit.workitemhandler.GetPermitRequestWorkItemHandler()</identifier>
+            <parameters/>
+            <name>GetPermitRequestStatus</name>
+        </work-item-handler>
+        <work-item-handler>
+            <resolver>mvel</resolver>
             <identifier>new org.jbpm.process.workitem.email.EmailWorkItemHandler("smtp.gmail.com","587","stevelibonati@gmail.com","halynfyqgoxujgpx")</identifier>
             <parameters/>
             <name>Email</name>
         </work-item-handler>
         <work-item-handler>
             <resolver>mvel</resolver>
-            <identifier>new com.solarvillage.permit.workitemhandler.RestWorkItemHandler()</identifier>
+            <identifier>new com.solarvillage.permit.workitemhandler.SubmitPermitRequestWorkItemHandler()</identifier>
             <parameters/>
-            <name>GovernmentPermit</name>
+            <name>SubmitPermitRequest</name>
+        </work-item-handler>
+        <work-item-handler>
+            <resolver>mvel</resolver>
+            <identifier>new com.solarvillage.permit.workitemhandler.RescindPermitWorkItemHandler()</identifier>
+            <parameters/>
+            <name>RescindPermit</name>
         </work-item-handler>
     </work-item-handlers>
     <environment-entries/>
