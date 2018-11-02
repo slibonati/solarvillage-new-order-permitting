@@ -12,7 +12,7 @@
   <bpmn2:itemDefinition id="_solarVillageRepAttendedHOAItem" structureRef="Boolean"/>
   <bpmn2:itemDefinition id="_processErrorItem" structureRef="Object"/>
   <bpmn2:error id="_7b4da85d-f583-3682-b347-b2f04bc17b4c" errorCode="com.solarvillage.permit.exception.PermitDeniedException" name="com.solarvillage.permit.exception.PermitDeniedException"/>
-  <bpmn2:error id="_57ac0df4-cda9-35a9-8bad-63507382045f" errorCode="Permit structuralPermit = (Permit) kcontext.getVariable("structural"); if (null == structuralPermit) { // PermitDeniedException thrown for structural\n  return true;\n}if (!structuralPermit.getStatus.equals(Status.APPROVED)) {\n  return true;\n}return false;" name="Permit structuralPermit = (Permit) kcontext.getVariable("structural");if (null == structuralPermit) { // PermitDeniedException thrown for structural\n  return true;\n}if (!structuralPermit.getStatus.equals(Status.APPROVED)) {\n  return true;\n}\nreturn false;"/>
+  <bpmn2:error id="_57ac0df4-cda9-35a9-8bad-63507382045f" errorCode=""/>
   <bpmn2:itemDefinition id="__54734D0A-108E-4081-BCC4-A32538A16820_TaskNameInputXItem" structureRef="String"/>
   <bpmn2:itemDefinition id="__54734D0A-108E-4081-BCC4-A32538A16820_inNewOrderFirstNameInputXItem" structureRef="String"/>
   <bpmn2:itemDefinition id="__54734D0A-108E-4081-BCC4-A32538A16820_inNewOrderLastNameInputXItem" structureRef="String"/>
