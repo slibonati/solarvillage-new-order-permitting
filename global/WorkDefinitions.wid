@@ -89,7 +89,7 @@
         "inPermitType" : new StringDataType(),
     ],
     "results" : [
-        "Result" : new ObjectDataType(),
+        "outPermitResponse" : new ObjectDataType(),
     ],
     "displayName" : "Submit Permit Request",
     "icon" : ""
