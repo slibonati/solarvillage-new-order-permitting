@@ -111,8 +111,7 @@
     "name" : "RescindPermit",
     "parameters" : [
         "inPermitRescind" : new ObjectDataType(),
-        "inPermitUrl" : new StringDataType(),
-        "inPermitType" : new StringDataType(),
+        "inPermitUrl" : new StringDataType()
     ],
     "results" : [
         "Result" : new ObjectDataType(),
