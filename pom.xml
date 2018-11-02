@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.solar-village</groupId>
   <artifactId>new-order-permitting</artifactId>
-  <version>3.19</version>
+  <version>3.20</version>
   <packaging>kjar</packaging>
   <name>new-order-permitting</name>
   <description></description>
