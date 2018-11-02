@@ -86,6 +86,7 @@
     "parameters" : [
         "inPermitRequest" : new ObjectDataType(),
         "inPermitUrl" : new StringDataType(),
+        "inPermitOperation" : new StringDataType(),
         "inPermitType" : new StringDataType(),
     ],
     "results" : [
