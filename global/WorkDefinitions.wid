@@ -85,8 +85,7 @@
     "name" : "SubmitPermitRequest",
     "parameters" : [
         "inPermitRequest" : new ObjectDataType(),
-        "inPermitUrl" : new StringDataType(),
-        "inPermitType" : new StringDataType(),
+        "inPermitUrl" : new StringDataType()
     ],
     "results" : [
         "outPermitResponse" : new ObjectDataType(),
