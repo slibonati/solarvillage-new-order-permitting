@@ -82,21 +82,44 @@
    ],
    
    [
-    "name" : "GovernmentPermit",
+    "name" : "SubmitPermitRequest",
     "parameters" : [
         "inPermitRequest" : new ObjectDataType(),
         "inPermitUrl" : new StringDataType(),
-        "inPermitOperation" : new StringDataType(),
         "inPermitType" : new StringDataType(),
     ],
     "results" : [
         "Result" : new ObjectDataType(),
     ],
-    "displayName" : "Government Permit",
+    "displayName" : "Submit Permit Request",
     "icon" : ""
   ],
-
-
+  [
+    "name" : "GetPermitRequestStatus",
+    "parameters" : [
+        "inPermitRequest" : new ObjectDataType(),
+        "inPermitUrl" : new StringDataType(),
+        "inPermitType" : new StringDataType(),
+    ],
+    "results" : [
+        "Result" : new ObjectDataType(),
+    ],
+    "displayName" : "Get Permit Request Status",
+    "icon" : ""
+  ],
+[
+    "name" : "RescindPermit",
+    "parameters" : [
+        "inPermitRequest" : new ObjectDataType(),
+        "inPermitUrl" : new StringDataType(),
+        "inPermitType" : new StringDataType(),
+    ],
+    "results" : [
+        "Result" : new ObjectDataType(),
+    ],
+    "displayName" : "Rescind Permit",
+    "icon" : ""
+  ]
 
 
 
