@@ -24,7 +24,7 @@ mvn clean install
 ##### create users and groups  
 from application-roles.properties  
 
-sales=rest-query,rest-task,agent,kie-server,sales-all,user
+sales=rest-query,rest-task,agent,kie-server,sales-all,user  
 hoa=rest-query,hoa-all,rest-task,agent,kie-server,user
 
 ##### Dependencies	
