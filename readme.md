@@ -74,7 +74,7 @@ curl -X PUT -H "Accept: application/json" --user sales:sales123 "http://localhos
 list claimed tasks  
 curl -X GET -H "Accept: application/json" --user sales:sales123 "http://localhost:8080/kie-server/services/rest/server/queries/tasks/instances/owners"
 
-start tasks  
+start task  
 curl -X PUT -H "Accept: application/json" --user sales:sales123 "http://localhost:8080/kie-server/services/rest/server/containers/new-order-permitting_4.20/tasks/103/states/started"
 
 complete claimed task  
@@ -86,7 +86,7 @@ curl -X GET -H "Accept: application/json" --user jboss:jboss123 "http://localhos
 claim task  
 curl -X PUT -H "Accept: application/json" --user hoa:hoa123 "http://localhost:8080/kie-server/services/rest/server/containers/new-order-permitting_4.20/tasks/104/states/claimed"
 
-start tasks  
+start task  
 curl -X PUT -H "Accept: application/json" --user hoa:hoa123 "http://localhost:8080/kie-server/services/rest/server/containers/new-order-permitting_4.20/tasks/104/states/started"
 
 complete claimed task  
