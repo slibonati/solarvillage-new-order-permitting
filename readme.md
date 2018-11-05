@@ -21,8 +21,8 @@ mvn clean install
 
 ### slibonati/solarvillage-new-order-permitting
 
-create users and groups 
-from application-roles.properties
+create users and groups  
+from application-roles.properties  
 
 sales=rest-query,rest-task,agent,kie-server,sales-all,user
 hoa=rest-query,hoa-all,rest-task,agent,kie-server,user
