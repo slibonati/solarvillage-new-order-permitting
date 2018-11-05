@@ -45,8 +45,7 @@ void com.solarvillage.permit.service.impl.PermitServiceImpl.mock(Permit permit)
 in the solarvillage-web project defines mock data to drive process scenarios.
 
 Freddy Kreuger's electrical permit is denied, but structural permit is approved.  
-Hannibal Lecter's electrical permit is approved, but structural permit is denied.  
-Hannibal Lecter's electrical permit is approved, but structural permit is denied.  
+Hannibal Lecter's electrical permit is approved, but structural permit is denied.    
 Jason Voorhees' electrical and structural permits are approved.  
 Michael Meyers's permits are initially in progress, but 3 subsequent requests for status will flip the status to approved.  
 Any other input will produce random statuses for permit requests.
