@@ -92,4 +92,15 @@ curl -X PUT -H "Accept: application/json" --user hoa:hoa123 "http://localhost:80
 complete claimed task  
 curl -X PUT "http://localhost:8080/kie-server/services/rest/server/containers/new-order-permitting_4.20/tasks/104/states/completed" -H "accept: application/json" --user hoa:hoa123 -H "content-type: application/json" -d "{\"outHoaApproval\":\"true\", \"outSolarVillageRepAttendedHOA\":\"true\"}"
 
+#### Log
+log output should look similar to following after successful process execution:
 
+19:08:12,414 INFO  [stdout] (default task-15) Process completion  
+19:08:12,414 INFO  [stdout] (default task-15) newOrder: com.solarvillage.permit.model.NewOrder@454ccb89[firstName=Freddy,lastName=Kreuger,email=freddy@nightmare.com,projectDescription=Elm St. solar project]  
+19:08:12,414 INFO  [stdout] (default task-15) hoaDate: 11/24/2018  
+19:08:12,414 INFO  [stdout] (default task-15) hoaOrderApproval: true  
+19:08:12,414 INFO  [stdout] (default task-15) solarVillageRepAttendedHOA: true  
+19:08:12,415 INFO  [stdout] (default task-15) electrical: com.solarvillage.permit.model.Permit@48b68940[id=1,type=ELECTRICAL,firstName=Freddy,lastName=Kreuger,email=freddy@nightmare.com,projectDescription=Elm St. solar project,status=DENIED]  
+19:08:12,415 INFO  [stdout] (default task-15) structural: com.solarvillage.permit.model.Permit@49a39eef[id=1,type=STRUCTURAL,firstName=Freddy,lastName=Kreuger,email=freddy@nightmare.com,projectDescription=Elm St. solar project,status=APPROVED]  
+19:08:12,415 INFO  [stdout] (default task-15) complete: true  
+19:08:12,415 INFO  [stdout] (default task-15) -----------------------------------------------------------------------------  
